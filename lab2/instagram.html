@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <style>
+            .box{
+            position: absolute; 
+            background:white;
+            top: 100px;
+            left: 52%;
+            height: 55%;
+            width: 260px;
+            border: 1px solid #dbdbdb;
+            padding: 20px;
+            text-align: center;
+        }
+            .box2{
+                position: absolute;
+                background: white;
+                top: 77%;
+                left: 52%;
+                height: 8%;
+                width: 300px;
+                border: 1px solid #dbdbdb;
+            }
+            .foto{
+                width:270px;
+                height: 120px;
+            }
+            
+            .input1{
+                width: 100%;
+                height: 30px;
+                border-radius: 5px;
+                box-shadow: 0;
+                border: 1px solid #dbdbdb;
+                font-size: 12px; 
+                padding: 0 10px;
+                box-sizing: border-box;
+                margin: 5px 0;
+        }
+            .input1:focus{
+                border-color: #a9a9a9;
+                outline: none;
+            }
+            
+            .vhod{
+                width: 100%;
+                height: 30px;
+                background-color: #0095f6;
+                color: white;
+                cursor:pointer;
+                border-radius: 5px;
+                border: none;
+                font-size: 14px;
+                margin: 10px 0;
+        }
+            .vhod:hover{
+                background-color: #007ac1;
+        }
+            .line{
+                display:flex;
+                align-items: center;
+                margin:20px 0;
+                border: none;
+                height:1px;
+        }
+            .vhod_facebook{
+                display:block;
+                color: #2aa2f7;
+                font-size: 16px;
+                margin-bottom: 10px;
+        }
+            .vhod_facebook a{
+                color: #2aa2f7;
+                text-decoration: none;
+        }
+            .vhod_facebook a:hover{
+                text-decoration: underline;
+        }
+            .forgotPassword{
+                font-size: 14px;
+                color: #2e4c87;
+                margin-top: 15px;
+        }
+            .forgotPassword a{
+                color: #2e4c87;
+                text-decoration: none;
+        }
+            .forgotPassword a:hover{
+                text-decoration: underline;
+        }
+            .signup{
+                margin-top:20px;
+                font-size: 14px;
+        }
+            .signup a{
+            color: #2a9ef7;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+            .signup a:hover {
+            text-decoration: underline;
+        }
+
+        </style>
+    </head>
+    <body>
+        <img src="insta.png"; style="width: 25%; height: 35%; position: relative; top: 50px; left: 25%;">
+        <div class="box">
+            <img class="foto" src="insta1.png">
+
+            <input type="text" class="input1" placeholder="Телефон,имя пользовотеля или эл.адрес">
+            <input type="password" class="input1" placeholder="Пароль">
+            <button class="vhod">Вход</button>
+            <p>Или</p>
+            <div class="vhod_facebook">
+                <a href="#">Войти через Facebook</a>
+            </div>
+            <div class="forgotPassword">
+                <a href="#" >Забыли пароль?</a>
+            </div>
+        </div>
+        <div class="box2">
+            <p class="signup" style="text-align: center; ">У вас еще нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+        </div>
+    </body>
+</html>
