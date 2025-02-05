@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Microsoft</title>
+    </head>
+    <style>
+        .menu{
+            background: #f2f2f2;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .menu a{
+            font-size: 14px;
+            margin: 0px 10px;
+            color: #4d4d4d;
+            text-decoration: none;
+        }
+        .menu a:hover{
+            color:#0078d4;
+            text-decoration:underline;
+
+        }
+        .info_line{
+            background: #0266b8;
+            color:white;
+            padding: 1.5px;
+            text-align: center;
+            font-size: 16px;
+        }
+        .info_line a{
+            color:#fff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .info_line a:hover{
+            text-decoration: underline;
+        }
+        .banner{
+            background:url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600') center/cover;
+            height:400px;
+            display:flex;
+            color:white;
+            text-align: left;
+            position: relative;
+        }
+        .binb{
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            color:#333;
+            height: 200px;
+            width: 550px;
+            
+        }
+        .banner h1{
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .banner p{
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .banner button{
+            background-color: #0078d4;
+            color:white;
+            padding: 10px 20px;
+            border:none;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+        .banner button:hover{
+            background-color: #005a9e;
+        }
+        .nav-links{
+            display:flex;
+            justify-content: space-around;
+            margin:20px 0;
+            align-items: center;
+        }
+        .nav-links a{
+            text-align: center;
+            font-size: 14px;
+            color:#5e8ecc;  
+            font-weight: bold; 
+        }
+        .nav-links a:hover{
+            color:#0078d4
+        }
+        .iconlink{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin:10px;
+        }
+        .icon{
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+        .links{
+            height: 400px;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:20px;
+            padding: 20px;
+        }
+        .link{
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow:hidden;
+            text-align: left;
+            padding: 20px;
+        }
+        .link img{
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+        .link h3{
+            margin: 15px 0 10px;
+            font-size: 24px;
+        }
+        .link p{
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        .link button{
+            background-color: #0078d4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;    
+            height: 40px; 
+        }
+    
+        .link button:hover{
+            background-color: #005a9e;
+        }
+    </style>
+    <body style="font-family: Arial, sans-serif;">
+        <div class="menu">
+        <div>Microsoft</div>
+        <a href="#">Microsoft 365</a>
+        <a href="#">Teams</a>
+        <a href="#">Copilot</a>
+        <a href="#">Windows</a>
+        <a href="#">Surface</a>
+        <a href="#">Xbox</a>
+        <a href="#">Deals</a>
+        <a href="#">Support</a>
+        <div>
+            <a href="#">Sign in</a>
+            </div>
+        </div>
+        <div class="info_line">
+            <p style="font-weight: bold;">
+                Pay your way, with flexibile payment options avialable at checkout.<a href="#">Learn more ></a>
+            </p>
+        </div>
+
+        <div class="banner">
+            <div class="binb">
+                <h1>Meet Surface Pro</h1>
+                <p>The laptop's unrivalled flexibility and AI features like live Captions and<br> Cocreator enable you to do more than you ever imagined.</p>
+                <button>Shop now</button>
+            </div>
+        </div>
+        <div class="nav-links">
+            <div class="iconlink">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Surface-Devices?wid=40&hei=40" alt="Surface devicess" class="icon">
+                <a href="#">Shop Surface devices</a>
+            </div>
+            <div class="iconlink">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Xbox-Games-Consoles?wid=40&hei=40" alt="Shop Xbox" class="icon">
+                <a href="#">Shop Xbox games and consoles</a>
+            </div>
+            <div class="iconlink">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Accessories?wid=40&hei=40" alt="Shop for access" class="icon">
+            <a href="#">Shop for accessories</a>
+            </div>
+            <div class="iconlink">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Business?wid=40&hei=40" alt="Shop for your business" class="icon">
+                <a href="#">Shop for your business</a>
+            </div>
+            <div class="iconlink">
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icon-PC?wid=40&hei=40" alt="Find youe next PC" class="icon">
+                <a href="#">Find your next PC</a>
+            </div>
+            <div class="iconlink">
+            <img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40" alt="Choose your microsoft" class="icon">
+            <a href="#">Choose your Microsoft 365</a>
+            </div>
+        </div>
+        <div class="links">
+            <div class="link">
+                <img src="C:\Users\Admin\Downloads\i.webp" alt="Surface laptop">
+                <h3>Surface Laptop, Copilot+<br>PC</h3>
+                <p>Unlock AI features like Live Captions and<br> Cocreator with this exeptionally powerfully<br>laptop.</p>
+                <button>Shop now</button>
+            </div>
+            <div class="link">
+                <img src="C:\Users\Admin\Downloads\xbox.webp" alt="Xbox Series X">
+                <h3>Xbox Series S</h3>
+                <p>Next-gen perfomance in the smallest Xbox ever</p>
+                <button>Shop Xbox Series S</button>
+            </div>
+            <div class="link">
+                <img src="C:\Users\Admin\Downloads\controller.webp" alt="Xbox controllers">
+                <h3>Xbox controllers</h3>
+                <p>Elite, wireless, adaptive-find the controller that fits your style of play</p>
+                <button>Shop now</button>
+            </div>
+            <div class="link">
+                <img src="C:\Users\Admin\OneDrive\Imágenes\Screenshots\Снимок экрана 2025-02-05 132629.png" alt="Xbox presents Developer_Direct ">
+                <h3>Xbox presents<br>Developer_Direct</h3>
+                <p>Tune in January 23 at 10 AM PT to hear directly<br>from the developers</p>
+                <button>learn more</button>
+            </div>
+        </div>
+    </body>
+</html>
